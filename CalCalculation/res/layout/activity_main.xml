@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/White" 
+    android:padding="@dimen/activity_horizontal_margin"
+   >
+
+    <TextView
+        android:id="@+id/Number1Text"
+        style="@style/TitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/titleshape"
+        android:text="@string/calculate"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/ScoreBoardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/MathematicalOperationButton"
+        android:layout_below="@+id/MathematicalOperationButton"
+        android:layout_marginTop="20dp"
+        style="@style/ButtonStyle"
+        android:background="@drawable/buttonclickdrawable"
+        android:text="@string/ScoreBoard" />
+
+    <Button
+        android:id="@+id/GlobalScoreBoardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ScoreBoardButton"
+        android:layout_below="@+id/ScoreBoardButton"
+        android:layout_marginTop="20dp"
+        style="@style/ButtonStyle"
+        android:background="@drawable/buttonclickdrawable"
+        android:text="@string/Global_ScoreBoard" />
+
+    <Button
+        android:id="@+id/TimesTableButton"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/MathematicalOperationButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/buttonclickdrawable"
+        android:text="@string/times_table" />
+
+    <Button
+        android:id="@+id/MathematicalOperationButton"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TimesTableButton"
+        android:layout_centerVertical="true"
+        android:background="@drawable/buttonclickdrawable"
+        android:text="@string/Mathematical_operations" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculation Game</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="calculate">Let\'s Calculate</string>
+    <string name="times_table">Times Table</string>
+    <string name="Mathematical_operations">Math Challenge</string>
+    <string name="ScoreBoard">Scoreboard</string>
+    <string name="Global_ScoreBoard">Global Scoreboard</string>
+    <string name="Back">Back</string>
+    <string name="InformationLabel">This is Cem Türker Product Love me :)</string>
+    <string name="title_activity_times_table">Times Table</string>
+    <string name="product">X</string>
+    <string name="default_value">0</string>
+    <string name="Score">Score:</string>
+    <string name="Submit">Submit</string>
+    <string name="Clean">Clean</string>
+    <string name="Ok">OK</string>
+    <string name="Information_Message">Information Message</string>
+    <string name="TimeTableMessage">Welcome to Times Table Drag numbers to blue rectangle and drop</string>
+    <string name="Wrong">Wrong</string>
+    <string name="title_activity_mathematical_operations_gui">MathematicalOperationsGui</string>
+    <string name="Exit">Exit</string>
+    <string name="Sure">Do you want to exit?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="time_remaining_format">Time: %.1f sec</string>
+    <string name="mathmeatical_Message">Welcome to Mathematical Operation game You have 10 seconds.Drag numbers to blue rectangle and drop.Good luck :)</string>
+    <string name="GameOver">Game Over</string>
+    <string name="Enter_Your_Name">Enter Your Name:</string>
+    <string name="Good_Job">Good Job</string>
+    <string name="TooManyUselessNumber">Too Many Useless Number</string>
+    
+    
+    
+    
+</resources>

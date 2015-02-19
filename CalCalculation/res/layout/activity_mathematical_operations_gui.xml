@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".MathematicalOperationsGui" >
+
+    <TextView
+        android:id="@+id/Number2TextMath"
+        style="@style/NumberType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/OperatorTextMath"
+        android:layout_alignRight="@+id/imageView1Math"
+        android:gravity="right"
+        android:text="Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/OperatorTextMath"
+        style="@style/NumberType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1Math"
+        android:layout_centerVertical="true"
+        android:text="@string/product"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1Math"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OperatorTextMath"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/calculationpic" />
+
+    <TextView
+        android:id="@+id/Number1TextMath"
+        style="@style/NumberType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Number2TextMath"
+        android:layout_alignRight="@+id/Number2TextMath"
+        android:layout_marginBottom="18dp"
+        android:gravity="right"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1Math"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_alignLeft="@+id/imageView1Math"
+        android:layout_below="@+id/score1Math"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/Row1Math"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Row2Math"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ResultRowMath"
+            android:background="@color/Light_Blue"
+            android:gravity="center"
+            android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/imageView1Math"
+         >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/score1Math"
+        style="@style/UpTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/Number1TextMath"
+        android:text="@string/Score" />
+
+    <TextView
+        android:id="@+id/TimeRemainingMath"
+        style="@style/UpTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/score1Math"
+        android:layout_alignBottom="@+id/score1Math"
+        android:layout_alignLeft="@+id/linearLayout1Math"
+        android:text="Time : " />
+
+    <Button
+        android:id="@+id/CleanButtonMath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        style="@style/ButtonStyle"
+        android:background="@drawable/buttonclickdrawable"
+        android:text="@string/Clean" />
+
+</RelativeLayout>

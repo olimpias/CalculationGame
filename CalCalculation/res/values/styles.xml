@@ -1,0 +1,51 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style  name="ButtonStyle">
+       <item name="android:textColor">@color/White</item>
+       <item name="android:typeface">monospace</item>
+       <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TitleStyle">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+     <style name="ListStyle">
+         <item name="android:typeface">monospace</item>
+         <item name="android:textSize">35sp</item>
+         <item name="android:textStyle">bold</item>
+     </style>
+     <style name="NumberType">
+         <item name="android:textStyle">bold</item>
+          <item name="android:textSize">24sp</item>
+          <item name="android:textColor">@android:color/black</item>
+     </style>
+      <style name="UpTitleStyle">
+         <item name="android:typeface">monospace</item>
+         <item name="android:textSize">20sp</item>
+         <item name="android:textStyle">bold</item>
+     </style>
+     <style name="ScoreBoardTitle">
+         <item name="android:textStyle">bold</item>
+          <item name="android:textSize">25sp</item>
+          <item name="android:textColor">#5CACEE</item>
+     </style>
+</resources>
